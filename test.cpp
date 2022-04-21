@@ -19,6 +19,12 @@ string enterString(string text) {
 
 int main() {
     int count = enterNumber("Введіть кількість повторювань: ");
+    if (count) {
+    }
+    else {
+        cout << "error";
+        exit(0);
+    }
     string txt = enterString("Введіть слово або рядок який буде повторюватися: ");
 
     for (int i = 0; i < count; i++) {
